@@ -1,0 +1,70 @@
+:root {
+  --primary-color: rgb(179, 178, 178);
+  --secondary-color: rgb(189, 130, 63);
+  --third-color: white;
+}
+
+body {
+  background-color: #2d2d2e;
+  border: 10px solid rgb(235, 232, 232);
+  color: var(--primary-color);
+}
+
+h1 {
+  margin-top: 150px;
+  margin-bottom: 80px;
+  font-family: "Poiret One", cursive;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Poiret One", cursive;
+  color: var(--secondary-color);
+}
+.img-fluid {
+  display: block;
+  margin: 0 auto;
+  height: 210px;
+  width: 240px;
+  float: left;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+p {
+  font-size: 15px;
+  font-family: "Didact Gothic", sans-serif;
+  color: var(--third-color);
+}
+@media (max-width: 750px) {
+  p {
+    display: inline-flex;
+  }
+  h2,
+  .btn-secondary {
+    display: inline-block;
+    margin-top: 0 auto;
+    text-align: center;
+  }
+}
+.btn-secondary {
+  background-color: var(--secondary-color) !important;
+  color: var(--third-color) !important;
+}
+.footer {
+  font-size: 20px;
+  margin: 20px;
+  padding-bottom: 20px;
+  color: var(--primary-color);
+  text-align: center;
+}
+.icons {
+  color: var(--third-color);
+  margin: 0 15px;
+  margin-top: 25px;
+  font-size: 30px;
+}
+.icons:hover {
+  color: #0d6efd;
+  transition: all 150ms ease-in-out;
+}

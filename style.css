@@ -5,7 +5,13 @@
 }
 
 body {
-  background-color: #2d2d2e;
+  background: linear-gradient(
+    #2d2d2e,
+    65%,
+    rgb(187, 187, 187),
+    10%,
+    rgb(241, 201, 149)
+  );
   border: 10px solid rgb(235, 232, 232);
   color: var(--primary-color);
 }
@@ -47,6 +53,11 @@ p {
     text-align: center;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .fruit-container {
+    max-width: 1400px;
+  }
+}
 .btn-secondary {
   background-color: var(--secondary-color) !important;
   color: var(--third-color) !important;
@@ -55,11 +66,11 @@ p {
   font-size: 20px;
   margin: 20px;
   padding-bottom: 20px;
-  color: var(--primary-color);
+  color: red;
   text-align: center;
 }
 .icons {
-  color: var(--third-color);
+  color: red;
   margin: 0 15px;
   margin-top: 25px;
   font-size: 30px;
@@ -67,4 +78,21 @@ p {
 .icons:hover {
   color: #0d6efd;
   transition: all 150ms ease-in-out;
+}
+.fruit-heading {
+  text-align: center;
+  color: red;
+  padding-top: 100px;
+}
+.fruit-subheading {
+  text-align: center;
+  color: rgb(24, 141, 250);
+}
+.fruit-p {
+  text-align: center;
+  color: var(--third-color);
+}
+.btn-primary {
+  background-color: rgb(63, 209, 82) !important;
+  border: none;
 }

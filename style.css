@@ -86,13 +86,13 @@ p {
 }
 .fruit-subheading {
   text-align: center;
-  color: rgb(24, 141, 250);
+  color: rgb(35, 172, 108);
 }
 .fruit-p {
   text-align: center;
   color: var(--third-color);
 }
 .btn-primary {
-  background-color: rgb(63, 209, 82) !important;
+  background-color: rgb(35, 172, 108) !important;
   border: none;
 }

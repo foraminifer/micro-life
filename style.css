@@ -7,7 +7,7 @@
 body {
   background: linear-gradient(
     #2d2d2e,
-    65%,
+    56%,
     rgb(187, 187, 187),
     10%,
     rgb(241, 201, 149)
@@ -82,7 +82,7 @@ p {
 .fruit-heading {
   text-align: center;
   color: red;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .fruit-subheading {
   text-align: center;

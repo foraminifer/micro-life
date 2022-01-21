@@ -74,6 +74,7 @@ p {
   margin: 0 15px;
   margin-top: 25px;
   font-size: 30px;
+  padding-top: 30px;
 }
 .icons:hover {
   color: #0d6efd;
@@ -95,4 +96,7 @@ p {
 .btn-primary {
   background-color: rgb(35, 172, 108) !important;
   border: none;
+}
+.contact-container {
+  background-color: var(--primary-color !important);
 }

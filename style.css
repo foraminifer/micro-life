@@ -60,11 +60,11 @@ p {
   font-size: 20px;
   margin: 20px;
   padding-bottom: 20px;
-  color: red;
+  color: rgb(245, 81, 52);
   text-align: center;
 }
 .icons {
-  color: red;
+  color: rgb(245, 81, 52);
   margin: 0 15px;
   margin-top: 25px;
   font-size: 33px;
@@ -76,8 +76,8 @@ p {
 }
 .fruit-heading {
   text-align: center;
-  color: red;
-  padding-top: 30px;
+  color: rgb(245, 81, 52);
+  padding-top: 55px;
 }
 .fruit-subheading {
   text-align: center;
@@ -94,4 +94,8 @@ p {
 .contact-container {
   color: var(--third-color);
   text-align: center;
+}
+.video {
+  margin: 0 auto;
+  display: block;
 }

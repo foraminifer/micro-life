@@ -36,7 +36,7 @@ p {
   font-family: "Didact Gothic", sans-serif;
   color: var(--third-color);
 }
-@media (max-width: 750px) {
+@media (max-width: 600px) {
   p,
   .fruit-p,
   .micro-p {
@@ -44,9 +44,10 @@ p {
   }
   h2,
   .fruit-heading {
-    display: inline-block;
+    display: block;
     margin-top: 0 auto;
     text-align: center;
+    flex-wrap: nowrap;
   }
   .btn-secondary,
   .btn-primary {
@@ -63,6 +64,7 @@ p {
 .btn-secondary {
   background-color: var(--secondary-color) !important;
   color: var(--third-color) !important;
+  box-shadow: 5px 5px 3px rgb(100, 96, 96);
 }
 .footer {
   font-size: 20px;
@@ -99,6 +101,7 @@ p {
   background-color: rgb(35, 172, 108) !important;
   border: none;
   text-align: center !important;
+  box-shadow: 5px 5px 3px grey;
 }
 .contact-container {
   color: var(--third-color);

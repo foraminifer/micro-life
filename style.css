@@ -111,7 +111,10 @@ p {
   margin: 0 auto;
   display: block;
 }
-.micro-p {
-  margin-left: 350px;
-  margin-right: 350px;
+.card {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background-color: transparent;
+  border: none;
 }
